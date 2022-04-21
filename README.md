@@ -27,6 +27,7 @@ Things you may want to cover:
 
 *** Estudo de caso ***
 
+```
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
@@ -91,3 +92,4 @@ class TweetController < ApplicationController
     return result
   end
 end
+```
