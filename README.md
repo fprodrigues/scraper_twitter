@@ -1,27 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rodar seguindo o irb e chamando a class Tweet.get()
+passando dois objetos, o primeiro uma string simples do que será procurado e o segundo, um size com o tamanho da consulta de retorno.
 
-Things you may want to cover:
+*Exemplo*
+Tweet.get("teste", size: 4)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<b>Lembrando que:</b> devido a regras do Twitter, o abuso no size, pode gerar um bloqueio de seu ip.
 
 
 
